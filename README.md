@@ -74,17 +74,6 @@ If you find this code useful in your research, please cite our paper:
   doi={10.1109/MERCon50084.2020.9185345}}
 ```
 
-## Contributing
-
-We welcome contributions from the community. If you'd like to contribute, please follow these steps:
-
-1. Fork this repository
-2. Create a new branch (`git checkout -b feature-branch`)
-3. Make your changes
-4. Commit your changes (`git commit -am 'Add new feature'`)
-5. Push to the branch (`git push origin feature-branch`)
-6. Create a new Pull Request
-
 ## Acknowledgements
 
 We would like to thank Falcon E Racing, the electric formula student team of the University of Moratuwa for their support.
