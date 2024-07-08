@@ -15,7 +15,7 @@ This repository contains the implementation codes for our paper titled "Fuzzy-ba
 
 ## Introduction
 
-This repository provides the source code and datasets used in our paper, "[Paper Title]". The paper addresses [brief description of the problem addressed in the paper]. For more details, please refer to the full paper available [here](link_to_paper).
+This repository provides the source code and datasets used in our paper, "Fuzzy-based Yaw Stability Control System with Torque Vectoring and Active Steering". The paper addresses [brief description of the problem addressed in the paper]. For more details, please refer to the full paper available [here](link_to_paper).
 
 ## Repository Structure
 
@@ -35,11 +35,7 @@ This repository provides the source code and datasets used in our paper, "[Paper
 
 ## Installation
 
-To run the code in this repository, you'll need to have [Python 3.x](https://www.python.org/downloads/) installed. You can install the necessary dependencies using pip:
-
-\`\`\`sh
-pip install -r requirements.txt
-\`\`\`
+To run the code in this repository, you'll need to have [MATLAB 202X](https://www.python.org/downloads/) installed.
 
 ## Usage
 
