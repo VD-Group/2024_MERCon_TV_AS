@@ -1,4 +1,3 @@
-readme_content = """
 # Implementation of Fuzzy-based Yaw Stability Control System with Torque Vectoring and Active Steering
 This repository contains the implementation codes for our paper titled "Fuzzy-based Yaw Stability Control System with Torque Vectoring and Active Steering", accepted at Moratuwa Engineering Research Conference, 2024.
 
@@ -20,7 +19,6 @@ This repository provides the source code and datasets used in our paper, "[Paper
 
 ## Repository Structure
 
-\`\`\`
 ├── data/                   # Directory containing datasets
 │   ├── raw/                # Raw data
 │   └── processed/          # Processed data
@@ -32,7 +30,6 @@ This repository provides the source code and datasets used in our paper, "[Paper
 ├── tests/                  # Unit tests
 ├── README.md               # This README file
 └── requirements.txt        # Python dependencies
-\`\`\`
 
 ## Installation
 
