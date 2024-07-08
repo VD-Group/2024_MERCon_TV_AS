@@ -14,10 +14,13 @@ This repository contains the implementation codes for our paper titled "Fuzzy-ba
 - [Acknowledgements](#acknowledgements)
 
 ## Introduction
+___
+<p align="center">
+    <img src="Intro.svg" width="500"> <br>
+</p>
 
-This repository provides the source code and datasets used in our paper, "Fuzzy-based Yaw Stability Control System with Torque Vectoring and Active Steering". For more details, please refer to the full paper available [here](link_to_paper).
+This repository provides the source code and datasets used in our paper, "Fuzzy-based Yaw Stability Control System with Torque Vectoring and Active Steering". For more details, please refer to the full paper available [here]([link_to_paper](https://ieeexplore.ieee.org/document/9185345)).
 
-![teaser](Intro.svg)
 
 [//]: # (### Abstract)
 
