@@ -1,5 +1,5 @@
 # Implementation of Fuzzy-based Yaw Stability Control System with Torque Vectoring and Active Steering (MERCon 2024)
-This repository contains the implementation codes for our paper titled "Fuzzy-based Yaw Stability Control System with Torque Vectoring and Active Steering", accepted at Moratuwa Engineering Research Conference, 2024.
+This repository contains the implementation codes for our paper titled "Fuzzy-based Yaw Stability Control System with Torque Vectoring and Active Steering", accepted at Moratuwa Engineering Research Conference, 2024. For more details, please refer to the full paper available [here]([link_to_paper](https://ieeexplore.ieee.org/document/9185345)).
 
 ## Table of Contents
 
@@ -18,9 +18,6 @@ ___
 <p align="center">
     <img src="Intro.svg" width="500"> <br>
 </p>
-
-This repository provides the source code and datasets used in our paper, "Fuzzy-based Yaw Stability Control System with Torque Vectoring and Active Steering". For more details, please refer to the full paper available [here]([link_to_paper](https://ieeexplore.ieee.org/document/9185345)).
-
 
 [//]: # (### Abstract)
 
@@ -87,10 +84,6 @@ We welcome contributions from the community. If you'd like to contribute, please
 4. Commit your changes (`git commit -am 'Add new feature'`)
 5. Push to the branch (`git push origin feature-branch`)
 6. Create a new Pull Request
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Acknowledgements
 
