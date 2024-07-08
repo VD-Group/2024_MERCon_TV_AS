@@ -55,14 +55,14 @@ We have provided example Jupyter notebooks in the `src/notebooks/` directory to 
 
 If you find this code useful in your research, please cite our paper:
 
-\`\`\`bibtex
+```bibtex
 @inproceedings{your_paper,
   title={Paper Title},
   author={Author1, Firstname1 and Author2, Firstname2 and Author3, Firstname3},
   booktitle={Proceedings of the Conference Name},
   year={Year}
 }
-\`\`\`
+```
 
 ## Contributing
 
