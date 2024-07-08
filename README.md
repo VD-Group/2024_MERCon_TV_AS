@@ -15,12 +15,13 @@ This repository contains the implementation codes for our paper titled "Fuzzy-ba
 
 ## Introduction
 
-This repository provides the source code and datasets used in our paper, "Fuzzy-based Yaw Stability Control System with Torque Vectoring and Active Steering". The paper addresses [brief description of the problem addressed in the paper]. For more details, please refer to the full paper available [here](link_to_paper).
+This repository provides the source code and datasets used in our paper, "Fuzzy-based Yaw Stability Control System with Torque Vectoring and Active Steering". For more details, please refer to the full paper available [here](link_to_paper).
 
-```
-Yaw stability control is essential for the safe operation of a vehicle. This paper presents a robust fuzzy-based integration of active steering with torque vectoring in order to achieve vehicle yaw stability. A single-track vehicle model is used to mathematically model the vehicle, accommodating the active front steering and torque vectoring systems. A fuzzy logic controller is employed to calculate the required corrective steering and differential torque based on the error in yaw rate. The implementation of this system is carried out using MATLAB, using the parameters of a compact SUV. Furthermore, an analysis of the effect of the proportion of corrective assistance given by active front steering and torque vectoring is done. The results indicate enhanced vehicle manoeuvrability during cornering, as evidenced by the near alignment of the measured yaw rate with the desired values. The simulations are carried out for two speeds, and in both cases, the effect of the controller is significant, with the normalised root mean square error reducing from 10\% to 3.94\% and from 12.9\% to 4.01\% for 60 \unit{km/h} and 100 \unit{km/h} respectively. The results also show that corrective active steering has a greater effect on yaw stability than an equivalent amount of corrective torque vectoring.
-```
 ![teaser](Intro.svg)
+
+[//]: # (### Abstract)
+
+>Yaw stability control is essential for the safe operation of a vehicle. This paper presents a robust fuzzy-based integration of active steering with torque vectoring in order to achieve vehicle yaw stability. A single-track vehicle model is used to mathematically model the vehicle, accommodating the active front steering and torque vectoring systems. A fuzzy logic controller is employed to calculate the required corrective steering and differential torque based on the error in yaw rate. The implementation of this system is carried out using MATLAB, using the parameters of a compact SUV. Furthermore, an analysis of the effect of the proportion of corrective assistance given by active front steering and torque vectoring is done. The results indicate enhanced vehicle manoeuvrability during cornering, as evidenced by the near alignment of the measured yaw rate with the desired values. The simulations are carried out for two speeds, and in both cases, the effect of the controller is significant, with the normalised root mean square error reducing from 10\% to 3.94\% and from 12.9\% to 4.01\% for 60 \unit{km/h} and 100 \unit{km/h} respectively. The results also show that corrective active steering has a greater effect on yaw stability than an equivalent amount of corrective torque vectoring.
 
 ## Repository Structure
 
