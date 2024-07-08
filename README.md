@@ -62,12 +62,16 @@ We have provided example Jupyter notebooks in the `src/notebooks/` directory to 
 If you find this code useful in your research, please cite our paper:
 
 ```bibtex
-@inproceedings{your_paper,
-  title={Paper Title},
-  author={Author1, Firstname1 and Author2, Firstname2 and Author3, Firstname3},
-  booktitle={Proceedings of the Conference Name},
-  year={Year}
-}
+@inproceedings{herath2024a,
+  author={Herath, Prabhathiya and Rajasuriya, Hiran and Dasanayake, Nimantha and Perera, Shehara and Subasinghe, LU and Gamage, JR},
+  booktitle={2024 Moratuwa Engineering Research Conference (MERCon)}, 
+  title={Fuzzy-based Yaw Stability Control System with Torque Vectoring and Active Steering}, 
+  year={2024},
+  volume={},
+  number={},
+  pages={xxx-xxx},
+  keywords={Yaw stability control; Active steering; Torque vectoring; Vehicle dynamics; Fuzzy logic controller},
+  doi={10.1109/MERCon50084.2020.9185345}}
 ```
 
 ## Contributing
@@ -87,10 +91,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Acknowledgements
 
-We would like to thank Falcon E Racing, the electric formula student team of the University of Moratuwa for their support. 
-"""
-
-with open("README.md", "w") as f:
-    f.write(readme_content)
-
-print("README.md file has been generated successfully.")
+We would like to thank Falcon E Racing, the electric formula student team of the University of Moratuwa for their support.
