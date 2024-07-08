@@ -19,6 +19,7 @@ This repository provides the source code and datasets used in our paper, "[Paper
 
 ## Repository Structure
 
+```bash
 ├── data/                   # Directory containing datasets
 │   ├── raw/                # Raw data
 │   └── processed/          # Processed data
@@ -30,6 +31,7 @@ This repository provides the source code and datasets used in our paper, "[Paper
 ├── tests/                  # Unit tests
 ├── README.md               # This README file
 └── requirements.txt        # Python dependencies
+```
 
 ## Installation
 
