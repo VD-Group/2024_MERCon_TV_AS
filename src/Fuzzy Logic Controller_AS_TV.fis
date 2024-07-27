@@ -1,0 +1,59 @@
+[System]
+Name='Fuzzy Logic Controller_new_4'
+Type='mamdani'
+Version=2.0
+NumInputs=1
+NumOutputs=3
+NumRules=5
+AndMethod='min'
+OrMethod='max'
+ImpMethod='min'
+AggMethod='max'
+DefuzzMethod='centroid'
+
+[Input1]
+Name='Yaw Rate Error'
+Range=[-1 1]
+NumMFs=5
+MF1='zero':'trimf',[-0.2 0 0.2]
+MF2='Pos high':'trimf',[0 0.4 0.6]
+MF3='Pos V high':'trapmf',[0 0.6 1 1]
+MF4='Neg Low':'trimf',[-0.6 -0.4 0]
+MF5='Neg V Low':'trapmf',[-1 -1 -0.6 0]
+
+[Output1]
+Name='R_T'
+Range=[-1 1]
+NumMFs=5
+MF1='decrease highly':'trapmf',[-1 -1 -0.7 -0.3]
+MF2='decrease slightly':'trimf',[-0.6 -0.3 0]
+MF3='neutral':'trimf',[-0.2 0 0.2]
+MF4='increase slightly':'trimf',[0 0.3 0.6]
+MF5='increase highly':'trapmf',[0.3 0.7 1 1]
+
+[Output2]
+Name='L_T'
+Range=[-1 1]
+NumMFs=5
+MF1='decrease highly':'trapmf',[-1 -1 -0.7 -0.3]
+MF2='decrease slightly':'trimf',[-0.6 -0.3 0]
+MF3='neutral':'trimf',[-0.2 0 0.2]
+MF4='increase slightly':'trimf',[0 0.3 0.6]
+MF5='increase highly':'trapmf',[0.3 0.7 1 1]
+
+[Output3]
+Name='Steer'
+Range=[-1 1]
+NumMFs=5
+MF1='decrease highly':'trimf',[-1 -0.6 -0.2]
+MF2='decrease slightly':'trimf',[-0.6 -0.3 0]
+MF3='neutral':'trimf',[-0.4 0 0.4]
+MF4='Increase slightly':'trimf',[0 0.3 0.6]
+MF5='increase highly':'trimf',[0.2 0.6 1]
+
+[Rules]
+5, 5 1 1 (1) : 1
+4, 4 2 2 (1) : 1
+1, 3 3 3 (1) : 1
+2, 2 4 4 (1) : 1
+3, 1 5 5 (1) : 1
