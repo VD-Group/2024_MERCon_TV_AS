@@ -8,10 +8,7 @@ This repository contains the implementation codes for our paper titled "Fuzzy-ba
 - [Repository Structure](#repository-structure)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Examples](#examples)
 - [Citation](#citation)
-- [Contributing](#contributing)
-- [License](#license)
 - [Acknowledgements](#acknowledgements)
 
 ## Introduction
@@ -27,36 +24,19 @@ ___
 ## Repository Structure
 
 ```bash
-├── data/                   # Directory containing datasets
-│   ├── raw/                # Raw data
-│   └── processed/          # Processed data
 ├── src/                    # Source code
-│   ├── modules/            # Code modules
 │   ├── scripts/            # Scripts to run experiments
-│   └── notebooks/          # Jupyter notebooks for analysis
 ├── results/                # Directory for storing results
-├── tests/                  # Unit tests
 ├── README.md               # This README file
-└── requirements.txt        # Python dependencies
 ```
 
 ## Installation
 
-To run the code in this repository, you'll need to have [MATLAB 202X](https://www.python.org/downloads/) installed.
+To run the code in this repository, you'll need to have [MATLAB 2022](https://in.mathworks.com/products/new_products/release2022a.html?requestedDomain=) installed.
 
 ## Usage
 
-The main scripts to run our experiments can be found in the `src/scripts/` directory. Below are examples of how to run these scripts:
-
-```sh
-python src/scripts/run_experiment.py --config configs/experiment1.yaml
-```
-
-For a detailed explanation of the command-line arguments and options, please refer to the documentation within each script.
-
-## Examples
-
-We have provided example Jupyter notebooks in the `src/notebooks/` directory to demonstrate how to use our code. You can start with the `example_notebook.ipynb` to get an overview of the basic functionalities.
+The main scripts to run our experiments can be found in the `src/` directory. The results can be reproduced by running the script `Yaw_stability_with_AFS_TV.m`.
 
 ## Citation
 
@@ -72,7 +52,7 @@ If you find this code useful in your research, please cite our paper:
   number={},
   pages={xxx-xxx},
   keywords={Yaw stability control; Active steering; Torque vectoring; Vehicle dynamics; Fuzzy logic controller},
-  doi={10.1109/MERCon50084.2020.9185345}}
+  doi={TBA}
 ```
 
 ## Acknowledgements
