@@ -26,8 +26,8 @@ ___
 ```bash
 ├── src/                    # Source code
 │   ├── scripts/            # Scripts to run experiments
-├── results/                # Directory for storing results
 ├── README.md               # This README file
+├── Results                # Directory for storing results
 ```
 
 ## Installation
