@@ -43,16 +43,17 @@ The main scripts to run our experiments can be found in the `src/` directory. Th
 If you find this code useful in your research, please cite our paper:
 
 ```bibtex
-@inproceedings{herath2024a,
-  author={Herath, Prabhathiya and Rajasuriya, Hiran and Dasanayake, Nimantha and Perera, Shehara and Subasinghe, LU and Gamage, JR},
+@INPROCEEDINGS{10688791,
+  author={Herath, Prabhathiya and Rajasuriya, Hiran and Dasanayake, Nimantha and Perera, Shehara and Subasinghe, Lihil and Gamage, Janaka},
   booktitle={2024 Moratuwa Engineering Research Conference (MERCon)}, 
-  title={Fuzzy-based Yaw Stability Control System with Torque Vectoring and Active Steering}, 
+  title={Fuzzy-based Vehicle Yaw Stability Control System with Torque Vectoring and Active Steering}, 
   year={2024},
   volume={},
   number={},
-  pages={xxx-xxx},
-  keywords={Yaw stability control; Active steering; Torque vectoring; Vehicle dynamics; Fuzzy logic controller},
-  doi={TBA}
+  pages={700-705},
+  keywords={Industries;Fuzzy logic;Torque;Stability analysis;Mathematical models;Robustness;Vehicle dynamics;Root mean square;Standards;Matlab;Yaw stability control;Active steering;Torque vectoring;Vehicle dynamics;Fuzzy logic controller},
+  doi={10.1109/MERCon63886.2024.10688791}}
+
 ```
 
 ## Acknowledgements
